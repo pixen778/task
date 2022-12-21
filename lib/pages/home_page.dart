@@ -195,6 +195,7 @@ class _HomePageState extends State<HomePage> {
             _isVisible =true;
           });
           //addItemToList(name);
+          if(_nameController.text!="")
           player_name.add(_nameController.text);
           _nameController.clear();
           displayNameList(context);
